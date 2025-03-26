@@ -1,0 +1,1125 @@
+Model 1: checkpoints/freevc.pth
+Total Parameters: 39339712, Total Size: 153670.75 KB
+Layer: enc_p.pre.weight, Shape: [192, 1024, 1], Params: 196608, Size (bytes): 786432
+Layer: enc_p.pre.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: enc_p.enc.in_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.0.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.1.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.2.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.3.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.3.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.3.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.4.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.4.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.4.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.5.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.5.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.5.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.6.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.6.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.6.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.7.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.7.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.7.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.8.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.8.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.8.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.9.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.9.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.9.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.10.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.10.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.10.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.11.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.11.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.11.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.12.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.12.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.12.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.13.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.13.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.13.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.14.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.14.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.14.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.in_layers.15.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.15.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.in_layers.15.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_p.enc.res_skip_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.0.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.1.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.2.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.3.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.3.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.3.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.4.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.4.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.4.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.5.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.5.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.5.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.6.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.6.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.6.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.7.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.7.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.7.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.8.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.8.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.8.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.9.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.9.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.9.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.10.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.10.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.10.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.11.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.11.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.11.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.12.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.12.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.12.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.13.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.13.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.13.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.14.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.14.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_p.enc.res_skip_layers.14.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.enc.res_skip_layers.15.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: enc_p.enc.res_skip_layers.15.weight_g, Shape: [192, 1, 1], Params: 192, Size (bytes): 768
+Layer: enc_p.enc.res_skip_layers.15.weight_v, Shape: [192, 192, 1], Params: 36864, Size (bytes): 147456
+Layer: enc_p.proj.weight, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_p.proj.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: dec.conv_pre.weight, Shape: [512, 192, 7], Params: 688128, Size (bytes): 2752512
+Layer: dec.conv_pre.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: dec.ups.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.ups.0.weight_g, Shape: [512, 1, 1], Params: 512, Size (bytes): 2048
+Layer: dec.ups.0.weight_v, Shape: [512, 256, 16], Params: 2097152, Size (bytes): 8388608
+Layer: dec.ups.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.ups.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.ups.1.weight_v, Shape: [256, 128, 16], Params: 524288, Size (bytes): 2097152
+Layer: dec.ups.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.ups.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.ups.2.weight_v, Shape: [128, 64, 4], Params: 32768, Size (bytes): 131072
+Layer: dec.ups.3.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.ups.3.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.ups.3.weight_v, Shape: [64, 32, 4], Params: 8192, Size (bytes): 32768
+Layer: dec.resblocks.0.convs1.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.0.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.0.convs1.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.1.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.0.convs1.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.2.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.0.convs2.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.0.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.0.convs2.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.1.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.0.convs2.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.2.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.1.convs1.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.0.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.1.convs1.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.1.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.1.convs1.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.2.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.1.convs2.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.0.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.1.convs2.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.1.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.1.convs2.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.2.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.2.convs1.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.0.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.2.convs1.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.1.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.2.convs1.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.2.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.2.convs2.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.0.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.2.convs2.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.1.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.2.convs2.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.2.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.3.convs1.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.0.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.3.convs1.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.1.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.3.convs1.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.2.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.3.convs2.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.0.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.3.convs2.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.1.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.3.convs2.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.2.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.4.convs1.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.0.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.4.convs1.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.1.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.4.convs1.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.2.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.4.convs2.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.0.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.4.convs2.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.1.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.4.convs2.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.2.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.5.convs1.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.0.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.5.convs1.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.1.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.5.convs1.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.2.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.5.convs2.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.0.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.5.convs2.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.1.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.5.convs2.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.2.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.6.convs1.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.0.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.6.convs1.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.1.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.6.convs1.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.2.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.6.convs2.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.0.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.6.convs2.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.1.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.6.convs2.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.2.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.7.convs1.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.0.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.7.convs1.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.1.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.7.convs1.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.2.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.7.convs2.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.0.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.7.convs2.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.1.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.7.convs2.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.2.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.8.convs1.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.0.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.8.convs1.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.1.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.8.convs1.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.2.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.8.convs2.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.0.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.8.convs2.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.1.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.8.convs2.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.2.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.9.convs1.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.0.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.9.convs1.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.1.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.9.convs1.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.2.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.9.convs2.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.0.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.9.convs2.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.1.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.9.convs2.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.2.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.10.convs1.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.0.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.10.convs1.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.1.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.10.convs1.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.2.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.10.convs2.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.0.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.10.convs2.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.1.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.10.convs2.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.2.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.11.convs1.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.0.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.resblocks.11.convs1.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.1.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.resblocks.11.convs1.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.2.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.resblocks.11.convs2.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.0.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.resblocks.11.convs2.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.1.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.resblocks.11.convs2.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.2.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.conv_post.weight, Shape: [1, 32, 7], Params: 224, Size (bytes): 896
+Layer: dec.cond.weight, Shape: [512, 256, 1], Params: 131072, Size (bytes): 524288
+Layer: dec.cond.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: enc_q.pre.weight, Shape: [192, 641, 1], Params: 123072, Size (bytes): 492288
+Layer: enc_q.pre.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: enc_q.enc.in_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.0.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.1.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.2.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.3.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.3.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.3.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.4.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.4.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.4.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.5.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.5.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.5.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.6.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.6.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.6.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.7.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.7.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.7.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.8.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.8.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.8.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.9.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.9.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.9.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.10.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.10.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.10.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.11.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.11.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.11.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.12.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.12.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.12.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.13.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.13.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.13.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.14.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.14.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.14.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.in_layers.15.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.15.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.in_layers.15.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: enc_q.enc.res_skip_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.0.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.1.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.2.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.3.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.3.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.3.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.4.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.4.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.4.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.5.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.5.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.5.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.6.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.6.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.6.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.7.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.7.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.7.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.8.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.8.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.8.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.9.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.9.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.9.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.10.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.10.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.10.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.11.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.11.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.11.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.12.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.12.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.12.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.13.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.13.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.13.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.14.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.14.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: enc_q.enc.res_skip_layers.14.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.enc.res_skip_layers.15.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: enc_q.enc.res_skip_layers.15.weight_g, Shape: [192, 1, 1], Params: 192, Size (bytes): 768
+Layer: enc_q.enc.res_skip_layers.15.weight_v, Shape: [192, 192, 1], Params: 36864, Size (bytes): 147456
+Layer: enc_q.enc.cond_layer.bias, Shape: [6144], Params: 6144, Size (bytes): 24576
+Layer: enc_q.enc.cond_layer.weight_g, Shape: [6144, 1, 1], Params: 6144, Size (bytes): 24576
+Layer: enc_q.enc.cond_layer.weight_v, Shape: [6144, 256, 1], Params: 1572864, Size (bytes): 6291456
+Layer: enc_q.proj.weight, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: enc_q.proj.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.pre.weight, Shape: [192, 96, 1], Params: 18432, Size (bytes): 73728
+Layer: flow.flows.0.pre.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: flow.flows.0.enc.in_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.in_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.in_layers.0.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.0.enc.in_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.in_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.in_layers.1.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.0.enc.in_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.in_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.in_layers.2.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.0.enc.in_layers.3.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.in_layers.3.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.in_layers.3.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.0.enc.res_skip_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.res_skip_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.res_skip_layers.0.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.0.enc.res_skip_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.res_skip_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.res_skip_layers.1.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.0.enc.res_skip_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.res_skip_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.0.enc.res_skip_layers.2.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.0.enc.res_skip_layers.3.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: flow.flows.0.enc.res_skip_layers.3.weight_g, Shape: [192, 1, 1], Params: 192, Size (bytes): 768
+Layer: flow.flows.0.enc.res_skip_layers.3.weight_v, Shape: [192, 192, 1], Params: 36864, Size (bytes): 147456
+Layer: flow.flows.0.enc.cond_layer.bias, Shape: [1536], Params: 1536, Size (bytes): 6144
+Layer: flow.flows.0.enc.cond_layer.weight_g, Shape: [1536, 1, 1], Params: 1536, Size (bytes): 6144
+Layer: flow.flows.0.enc.cond_layer.weight_v, Shape: [1536, 256, 1], Params: 393216, Size (bytes): 1572864
+Layer: flow.flows.0.post.weight, Shape: [96, 192, 1], Params: 18432, Size (bytes): 73728
+Layer: flow.flows.0.post.bias, Shape: [96], Params: 96, Size (bytes): 384
+Layer: flow.flows.2.pre.weight, Shape: [192, 96, 1], Params: 18432, Size (bytes): 73728
+Layer: flow.flows.2.pre.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: flow.flows.2.enc.in_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.in_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.in_layers.0.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.2.enc.in_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.in_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.in_layers.1.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.2.enc.in_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.in_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.in_layers.2.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.2.enc.in_layers.3.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.in_layers.3.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.in_layers.3.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.2.enc.res_skip_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.res_skip_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.res_skip_layers.0.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.2.enc.res_skip_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.res_skip_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.res_skip_layers.1.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.2.enc.res_skip_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.res_skip_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.2.enc.res_skip_layers.2.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.2.enc.res_skip_layers.3.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: flow.flows.2.enc.res_skip_layers.3.weight_g, Shape: [192, 1, 1], Params: 192, Size (bytes): 768
+Layer: flow.flows.2.enc.res_skip_layers.3.weight_v, Shape: [192, 192, 1], Params: 36864, Size (bytes): 147456
+Layer: flow.flows.2.enc.cond_layer.bias, Shape: [1536], Params: 1536, Size (bytes): 6144
+Layer: flow.flows.2.enc.cond_layer.weight_g, Shape: [1536, 1, 1], Params: 1536, Size (bytes): 6144
+Layer: flow.flows.2.enc.cond_layer.weight_v, Shape: [1536, 256, 1], Params: 393216, Size (bytes): 1572864
+Layer: flow.flows.2.post.weight, Shape: [96, 192, 1], Params: 18432, Size (bytes): 73728
+Layer: flow.flows.2.post.bias, Shape: [96], Params: 96, Size (bytes): 384
+Layer: flow.flows.4.pre.weight, Shape: [192, 96, 1], Params: 18432, Size (bytes): 73728
+Layer: flow.flows.4.pre.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: flow.flows.4.enc.in_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.in_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.in_layers.0.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.4.enc.in_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.in_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.in_layers.1.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.4.enc.in_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.in_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.in_layers.2.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.4.enc.in_layers.3.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.in_layers.3.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.in_layers.3.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.4.enc.res_skip_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.res_skip_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.res_skip_layers.0.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.4.enc.res_skip_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.res_skip_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.res_skip_layers.1.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.4.enc.res_skip_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.res_skip_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.4.enc.res_skip_layers.2.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.4.enc.res_skip_layers.3.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: flow.flows.4.enc.res_skip_layers.3.weight_g, Shape: [192, 1, 1], Params: 192, Size (bytes): 768
+Layer: flow.flows.4.enc.res_skip_layers.3.weight_v, Shape: [192, 192, 1], Params: 36864, Size (bytes): 147456
+Layer: flow.flows.4.enc.cond_layer.bias, Shape: [1536], Params: 1536, Size (bytes): 6144
+Layer: flow.flows.4.enc.cond_layer.weight_g, Shape: [1536, 1, 1], Params: 1536, Size (bytes): 6144
+Layer: flow.flows.4.enc.cond_layer.weight_v, Shape: [1536, 256, 1], Params: 393216, Size (bytes): 1572864
+Layer: flow.flows.4.post.weight, Shape: [96, 192, 1], Params: 18432, Size (bytes): 73728
+Layer: flow.flows.4.post.bias, Shape: [96], Params: 96, Size (bytes): 384
+Layer: flow.flows.6.pre.weight, Shape: [192, 96, 1], Params: 18432, Size (bytes): 73728
+Layer: flow.flows.6.pre.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: flow.flows.6.enc.in_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.in_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.in_layers.0.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.6.enc.in_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.in_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.in_layers.1.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.6.enc.in_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.in_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.in_layers.2.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.6.enc.in_layers.3.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.in_layers.3.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.in_layers.3.weight_v, Shape: [384, 192, 5], Params: 368640, Size (bytes): 1474560
+Layer: flow.flows.6.enc.res_skip_layers.0.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.res_skip_layers.0.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.res_skip_layers.0.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.6.enc.res_skip_layers.1.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.res_skip_layers.1.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.res_skip_layers.1.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.6.enc.res_skip_layers.2.bias, Shape: [384], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.res_skip_layers.2.weight_g, Shape: [384, 1, 1], Params: 384, Size (bytes): 1536
+Layer: flow.flows.6.enc.res_skip_layers.2.weight_v, Shape: [384, 192, 1], Params: 73728, Size (bytes): 294912
+Layer: flow.flows.6.enc.res_skip_layers.3.bias, Shape: [192], Params: 192, Size (bytes): 768
+Layer: flow.flows.6.enc.res_skip_layers.3.weight_g, Shape: [192, 1, 1], Params: 192, Size (bytes): 768
+Layer: flow.flows.6.enc.res_skip_layers.3.weight_v, Shape: [192, 192, 1], Params: 36864, Size (bytes): 147456
+Layer: flow.flows.6.enc.cond_layer.bias, Shape: [1536], Params: 1536, Size (bytes): 6144
+Layer: flow.flows.6.enc.cond_layer.weight_g, Shape: [1536, 1, 1], Params: 1536, Size (bytes): 6144
+Layer: flow.flows.6.enc.cond_layer.weight_v, Shape: [1536, 256, 1], Params: 393216, Size (bytes): 1572864
+Layer: flow.flows.6.post.weight, Shape: [96, 192, 1], Params: 18432, Size (bytes): 73728
+Layer: flow.flows.6.post.bias, Shape: [96], Params: 96, Size (bytes): 384
+
+Model 2: checkpoints/best_model.pth
+Total Parameters: 185157632, Total Size: 723272.00 KB
+Layer: enc_p.pre.weight, Shape: [512, 1024, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.pre.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: enc_p.enc.in_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.0.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.1.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.2.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.3.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.3.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.3.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.4.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.4.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.4.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.5.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.5.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.5.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.6.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.6.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.6.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.7.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.7.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.7.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.8.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.8.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.8.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.9.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.9.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.9.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.10.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.10.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.10.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.11.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.11.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.11.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.12.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.12.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.12.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.13.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.13.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.13.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.14.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.14.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.14.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.in_layers.15.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.15.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.in_layers.15.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_p.enc.res_skip_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.0.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.1.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.2.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.3.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.3.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.3.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.4.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.4.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.4.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.5.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.5.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.5.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.6.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.6.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.6.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.7.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.7.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.7.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.8.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.8.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.8.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.9.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.9.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.9.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.10.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.10.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.10.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.11.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.11.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.11.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.12.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.12.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.12.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.13.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.13.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.13.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.14.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.14.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_p.enc.res_skip_layers.14.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.enc.res_skip_layers.15.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: enc_p.enc.res_skip_layers.15.weight_g, Shape: [512, 1, 1], Params: 512, Size (bytes): 2048
+Layer: enc_p.enc.res_skip_layers.15.weight_v, Shape: [512, 512, 1], Params: 262144, Size (bytes): 1048576
+Layer: enc_p.proj.weight, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_p.proj.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: dec.conv_pre.weight, Shape: [512, 512, 7], Params: 1835008, Size (bytes): 7340032
+Layer: dec.conv_pre.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: dec.ups.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.ups.0.weight_g, Shape: [512, 1, 1], Params: 512, Size (bytes): 2048
+Layer: dec.ups.0.weight_v, Shape: [512, 256, 16], Params: 2097152, Size (bytes): 8388608
+Layer: dec.ups.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.ups.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.ups.1.weight_v, Shape: [256, 128, 16], Params: 524288, Size (bytes): 2097152
+Layer: dec.ups.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.ups.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.ups.2.weight_v, Shape: [128, 64, 4], Params: 32768, Size (bytes): 131072
+Layer: dec.ups.3.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.ups.3.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.ups.3.weight_v, Shape: [64, 32, 4], Params: 8192, Size (bytes): 32768
+Layer: dec.resblocks.0.convs1.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.0.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.0.convs1.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.1.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.0.convs1.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs1.2.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.0.convs2.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.0.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.0.convs2.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.1.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.0.convs2.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.0.convs2.2.weight_v, Shape: [256, 256, 3], Params: 196608, Size (bytes): 786432
+Layer: dec.resblocks.1.convs1.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.0.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.1.convs1.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.1.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.1.convs1.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs1.2.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.1.convs2.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.0.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.1.convs2.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.1.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.1.convs2.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.1.convs2.2.weight_v, Shape: [256, 256, 7], Params: 458752, Size (bytes): 1835008
+Layer: dec.resblocks.2.convs1.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.0.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.2.convs1.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.1.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.2.convs1.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs1.2.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.2.convs2.0.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.0.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.0.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.2.convs2.1.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.1.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.1.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.2.convs2.2.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.2.weight_g, Shape: [256, 1, 1], Params: 256, Size (bytes): 1024
+Layer: dec.resblocks.2.convs2.2.weight_v, Shape: [256, 256, 11], Params: 720896, Size (bytes): 2883584
+Layer: dec.resblocks.3.convs1.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.0.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.3.convs1.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.1.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.3.convs1.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs1.2.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.3.convs2.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.0.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.3.convs2.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.1.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.3.convs2.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.3.convs2.2.weight_v, Shape: [128, 128, 3], Params: 49152, Size (bytes): 196608
+Layer: dec.resblocks.4.convs1.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.0.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.4.convs1.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.1.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.4.convs1.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs1.2.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.4.convs2.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.0.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.4.convs2.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.1.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.4.convs2.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.4.convs2.2.weight_v, Shape: [128, 128, 7], Params: 114688, Size (bytes): 458752
+Layer: dec.resblocks.5.convs1.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.0.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.5.convs1.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.1.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.5.convs1.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs1.2.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.5.convs2.0.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.0.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.0.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.5.convs2.1.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.1.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.1.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.5.convs2.2.bias, Shape: [128], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.2.weight_g, Shape: [128, 1, 1], Params: 128, Size (bytes): 512
+Layer: dec.resblocks.5.convs2.2.weight_v, Shape: [128, 128, 11], Params: 180224, Size (bytes): 720896
+Layer: dec.resblocks.6.convs1.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.0.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.6.convs1.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.1.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.6.convs1.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs1.2.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.6.convs2.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.0.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.6.convs2.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.1.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.6.convs2.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.6.convs2.2.weight_v, Shape: [64, 64, 3], Params: 12288, Size (bytes): 49152
+Layer: dec.resblocks.7.convs1.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.0.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.7.convs1.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.1.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.7.convs1.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs1.2.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.7.convs2.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.0.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.7.convs2.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.1.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.7.convs2.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.7.convs2.2.weight_v, Shape: [64, 64, 7], Params: 28672, Size (bytes): 114688
+Layer: dec.resblocks.8.convs1.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.0.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.8.convs1.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.1.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.8.convs1.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs1.2.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.8.convs2.0.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.0.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.0.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.8.convs2.1.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.1.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.1.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.8.convs2.2.bias, Shape: [64], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.2.weight_g, Shape: [64, 1, 1], Params: 64, Size (bytes): 256
+Layer: dec.resblocks.8.convs2.2.weight_v, Shape: [64, 64, 11], Params: 45056, Size (bytes): 180224
+Layer: dec.resblocks.9.convs1.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.0.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.9.convs1.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.1.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.9.convs1.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs1.2.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.9.convs2.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.0.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.9.convs2.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.1.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.9.convs2.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.9.convs2.2.weight_v, Shape: [32, 32, 3], Params: 3072, Size (bytes): 12288
+Layer: dec.resblocks.10.convs1.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.0.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.10.convs1.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.1.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.10.convs1.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs1.2.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.10.convs2.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.0.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.10.convs2.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.1.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.10.convs2.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.10.convs2.2.weight_v, Shape: [32, 32, 7], Params: 7168, Size (bytes): 28672
+Layer: dec.resblocks.11.convs1.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.0.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.resblocks.11.convs1.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.1.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.resblocks.11.convs1.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs1.2.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.resblocks.11.convs2.0.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.0.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.0.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.resblocks.11.convs2.1.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.1.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.1.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.resblocks.11.convs2.2.bias, Shape: [32], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.2.weight_g, Shape: [32, 1, 1], Params: 32, Size (bytes): 128
+Layer: dec.resblocks.11.convs2.2.weight_v, Shape: [32, 32, 11], Params: 11264, Size (bytes): 45056
+Layer: dec.conv_post.weight, Shape: [1, 32, 7], Params: 224, Size (bytes): 896
+Layer: dec.cond.weight, Shape: [512, 512, 1], Params: 262144, Size (bytes): 1048576
+Layer: dec.cond.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: enc_q.pre.weight, Shape: [512, 641, 1], Params: 328192, Size (bytes): 1312768
+Layer: enc_q.pre.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: enc_q.enc.in_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.0.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.1.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.2.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.3.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.3.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.3.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.4.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.4.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.4.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.5.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.5.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.5.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.6.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.6.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.6.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.7.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.7.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.7.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.8.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.8.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.8.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.9.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.9.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.9.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.10.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.10.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.10.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.11.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.11.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.11.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.12.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.12.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.12.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.13.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.13.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.13.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.14.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.14.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.14.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.in_layers.15.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.15.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.in_layers.15.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: enc_q.enc.res_skip_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.0.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.1.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.2.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.3.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.3.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.3.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.4.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.4.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.4.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.5.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.5.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.5.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.6.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.6.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.6.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.7.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.7.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.7.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.8.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.8.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.8.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.9.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.9.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.9.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.10.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.10.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.10.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.11.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.11.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.11.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.12.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.12.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.12.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.13.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.13.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.13.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.14.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.14.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: enc_q.enc.res_skip_layers.14.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.enc.res_skip_layers.15.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: enc_q.enc.res_skip_layers.15.weight_g, Shape: [512, 1, 1], Params: 512, Size (bytes): 2048
+Layer: enc_q.enc.res_skip_layers.15.weight_v, Shape: [512, 512, 1], Params: 262144, Size (bytes): 1048576
+Layer: enc_q.enc.cond_layer.bias, Shape: [16384], Params: 16384, Size (bytes): 65536
+Layer: enc_q.enc.cond_layer.weight_g, Shape: [16384, 1, 1], Params: 16384, Size (bytes): 65536
+Layer: enc_q.enc.cond_layer.weight_v, Shape: [16384, 512, 1], Params: 8388608, Size (bytes): 33554432
+Layer: enc_q.proj.weight, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: enc_q.proj.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.pre.weight, Shape: [512, 256, 1], Params: 131072, Size (bytes): 524288
+Layer: flow.flows.0.pre.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: flow.flows.0.enc.in_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.in_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.in_layers.0.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.0.enc.in_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.in_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.in_layers.1.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.0.enc.in_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.in_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.in_layers.2.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.0.enc.in_layers.3.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.in_layers.3.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.in_layers.3.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.0.enc.res_skip_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.res_skip_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.res_skip_layers.0.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.0.enc.res_skip_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.res_skip_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.res_skip_layers.1.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.0.enc.res_skip_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.res_skip_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.0.enc.res_skip_layers.2.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.0.enc.res_skip_layers.3.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: flow.flows.0.enc.res_skip_layers.3.weight_g, Shape: [512, 1, 1], Params: 512, Size (bytes): 2048
+Layer: flow.flows.0.enc.res_skip_layers.3.weight_v, Shape: [512, 512, 1], Params: 262144, Size (bytes): 1048576
+Layer: flow.flows.0.enc.cond_layer.bias, Shape: [4096], Params: 4096, Size (bytes): 16384
+Layer: flow.flows.0.enc.cond_layer.weight_g, Shape: [4096, 1, 1], Params: 4096, Size (bytes): 16384
+Layer: flow.flows.0.enc.cond_layer.weight_v, Shape: [4096, 512, 1], Params: 2097152, Size (bytes): 8388608
+Layer: flow.flows.0.post.weight, Shape: [256, 512, 1], Params: 131072, Size (bytes): 524288
+Layer: flow.flows.0.post.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: flow.flows.1.pre.weight, Shape: [512, 256, 1], Params: 131072, Size (bytes): 524288
+Layer: flow.flows.1.pre.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: flow.flows.1.enc.in_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.in_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.in_layers.0.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.1.enc.in_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.in_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.in_layers.1.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.1.enc.in_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.in_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.in_layers.2.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.1.enc.in_layers.3.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.in_layers.3.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.in_layers.3.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.1.enc.res_skip_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.res_skip_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.res_skip_layers.0.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.1.enc.res_skip_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.res_skip_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.res_skip_layers.1.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.1.enc.res_skip_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.res_skip_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.1.enc.res_skip_layers.2.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.1.enc.res_skip_layers.3.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: flow.flows.1.enc.res_skip_layers.3.weight_g, Shape: [512, 1, 1], Params: 512, Size (bytes): 2048
+Layer: flow.flows.1.enc.res_skip_layers.3.weight_v, Shape: [512, 512, 1], Params: 262144, Size (bytes): 1048576
+Layer: flow.flows.1.enc.cond_layer.bias, Shape: [4096], Params: 4096, Size (bytes): 16384
+Layer: flow.flows.1.enc.cond_layer.weight_g, Shape: [4096, 1, 1], Params: 4096, Size (bytes): 16384
+Layer: flow.flows.1.enc.cond_layer.weight_v, Shape: [4096, 512, 1], Params: 2097152, Size (bytes): 8388608
+Layer: flow.flows.1.post.weight, Shape: [256, 512, 1], Params: 131072, Size (bytes): 524288
+Layer: flow.flows.1.post.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: flow.flows.2.pre.weight, Shape: [512, 256, 1], Params: 131072, Size (bytes): 524288
+Layer: flow.flows.2.pre.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: flow.flows.2.enc.in_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.in_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.in_layers.0.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.2.enc.in_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.in_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.in_layers.1.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.2.enc.in_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.in_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.in_layers.2.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.2.enc.in_layers.3.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.in_layers.3.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.in_layers.3.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.2.enc.res_skip_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.res_skip_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.res_skip_layers.0.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.2.enc.res_skip_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.res_skip_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.res_skip_layers.1.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.2.enc.res_skip_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.res_skip_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.2.enc.res_skip_layers.2.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.2.enc.res_skip_layers.3.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: flow.flows.2.enc.res_skip_layers.3.weight_g, Shape: [512, 1, 1], Params: 512, Size (bytes): 2048
+Layer: flow.flows.2.enc.res_skip_layers.3.weight_v, Shape: [512, 512, 1], Params: 262144, Size (bytes): 1048576
+Layer: flow.flows.2.enc.cond_layer.bias, Shape: [4096], Params: 4096, Size (bytes): 16384
+Layer: flow.flows.2.enc.cond_layer.weight_g, Shape: [4096, 1, 1], Params: 4096, Size (bytes): 16384
+Layer: flow.flows.2.enc.cond_layer.weight_v, Shape: [4096, 512, 1], Params: 2097152, Size (bytes): 8388608
+Layer: flow.flows.2.post.weight, Shape: [256, 512, 1], Params: 131072, Size (bytes): 524288
+Layer: flow.flows.2.post.bias, Shape: [256], Params: 256, Size (bytes): 1024
+Layer: flow.flows.3.pre.weight, Shape: [512, 256, 1], Params: 131072, Size (bytes): 524288
+Layer: flow.flows.3.pre.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: flow.flows.3.enc.in_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.in_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.in_layers.0.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.3.enc.in_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.in_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.in_layers.1.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.3.enc.in_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.in_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.in_layers.2.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.3.enc.in_layers.3.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.in_layers.3.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.in_layers.3.weight_v, Shape: [1024, 512, 5], Params: 2621440, Size (bytes): 10485760
+Layer: flow.flows.3.enc.res_skip_layers.0.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.res_skip_layers.0.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.res_skip_layers.0.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.3.enc.res_skip_layers.1.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.res_skip_layers.1.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.res_skip_layers.1.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.3.enc.res_skip_layers.2.bias, Shape: [1024], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.res_skip_layers.2.weight_g, Shape: [1024, 1, 1], Params: 1024, Size (bytes): 4096
+Layer: flow.flows.3.enc.res_skip_layers.2.weight_v, Shape: [1024, 512, 1], Params: 524288, Size (bytes): 2097152
+Layer: flow.flows.3.enc.res_skip_layers.3.bias, Shape: [512], Params: 512, Size (bytes): 2048
+Layer: flow.flows.3.enc.res_skip_layers.3.weight_g, Shape: [512, 1, 1], Params: 512, Size (bytes): 2048
+Layer: flow.flows.3.enc.res_skip_layers.3.weight_v, Shape: [512, 512, 1], Params: 262144, Size (bytes): 1048576
+Layer: flow.flows.3.enc.cond_layer.bias, Shape: [4096], Params: 4096, Size (bytes): 16384
+Layer: flow.flows.3.enc.cond_layer.weight_g, Shape: [4096, 1, 1], Params: 4096, Size (bytes): 16384
+Layer: flow.flows.3.enc.cond_layer.weight_v, Shape: [4096, 512, 1], Params: 2097152, Size (bytes): 8388608
+Layer: flow.flows.3.post.weight, Shape: [256, 512, 1], Params: 131072, Size (bytes): 524288
+Layer: flow.flows.3.post.bias, Shape: [256], Params: 256, Size (bytes): 1024
