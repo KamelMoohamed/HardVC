@@ -6,6 +6,7 @@ import torch.distributed as dist
 import torch.multiprocessing as mp
 import wandb
 from torch.cuda.amp import GradScaler, autocast
+from torch.nn import functional as F
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.utils.data import DataLoader
 
@@ -14,6 +15,9 @@ from constants import (
     DATA_FILTER_LENGTH,
     DATA_HOP_LENGTH,
     DATA_MAX_WAV_VALUE,
+    DATA_MEL_FMAX,
+    DATA_MEL_FMIN,
+    DATA_N_MEL_CHANNELS,
     DATA_SAMPLING_RATE,
     DATA_TRAINING_FILES,
     DATA_VALIDATION_FILES,
@@ -33,6 +37,7 @@ from constants import (
     TRAIN_BATCH_SIZE,
     TRAIN_BETAS,
     TRAIN_C_KL,
+    TRAIN_C_MEL,
     TRAIN_EPOCHS,
     TRAIN_EPS,
     TRAIN_EVAL_INTERVAL,
@@ -50,6 +55,7 @@ from dataloaders import (
     TextAudioSpeakerLoader,
 )
 from losses import discriminator_loss, feature_loss, generator_loss, kl_loss
+from mel_processing import mel_spectrogram_torch, spec_to_mel_torch
 from models import MultiPeriodDiscriminator, SynthesizerTrn
 
 torch.backends.cudnn.benchmark = True
@@ -212,6 +218,14 @@ def train(
             y.cuda(rank, non_blocking=True),
             c.cuda(rank, non_blocking=True),
         )
+        mel = spec_to_mel_torch(
+            spec,
+            DATA_FILTER_LENGTH,
+            DATA_N_MEL_CHANNELS,
+            DATA_SAMPLING_RATE,
+            DATA_MEL_FMIN,
+            DATA_MEL_FMAX,
+        )
 
         # ----------------------
         # (1) Train Discriminator
@@ -219,7 +233,20 @@ def train(
         with autocast(enabled=TRAIN_FP16_RUN):
             # Generator forward pass
             y_hat, ids_slice, z_mask, (z, z_p, m_p, logs_p, m_q, logs_q) = net_g(
-                c, spec, filenames
+                c, spec, mel, filenames
+            )
+            y_mel = slice_segments(
+                mel, ids_slice, TRAIN_SEGMENT_SIZE // DATA_HOP_LENGTH
+            )
+            y_hat_mel = mel_spectrogram_torch(
+                y_hat.squeeze(1),
+                DATA_FILTER_LENGTH,
+                DATA_N_MEL_CHANNELS,
+                DATA_SAMPLING_RATE,
+                DATA_HOP_LENGTH,
+                DATA_WIN_LENGTH,
+                DATA_MEL_FMIN,
+                DATA_MEL_FMAX,
             )
 
             # Slice y to match y_hat
@@ -245,12 +272,13 @@ def train(
             y_d_hat_r, y_d_hat_g, fmap_r, fmap_g = net_d(y, y_hat)
             with autocast(enabled=False):
                 # Compute losses
+                loss_mel = F.l1_loss(y_mel, y_hat_mel) * TRAIN_C_MEL
                 loss_kl = kl_loss(z_p, logs_q, m_p, logs_p, z_mask) * TRAIN_C_KL
                 loss_fm = feature_loss(fmap_r, fmap_g)
                 loss_gen, _ = generator_loss(y_d_hat_g)
 
                 # Combine generator losses
-                loss_gen_all = loss_gen + loss_fm + loss_kl
+                loss_gen_all = loss_gen + loss_fm + loss_mel + loss_kl
 
         optim_g.zero_grad()
         scaler.scale(loss_gen_all).backward()
@@ -280,14 +308,18 @@ def evaluate(generator, eval_loader):
                 spec.cuda(0, non_blocking=True),
                 y.cuda(0, non_blocking=True),
             )
+            mel = spec_to_mel_torch(
+                spec,
+                DATA_FILTER_LENGTH,
+                DATA_N_MEL_CHANNELS,
+                DATA_SAMPLING_RATE,
+                DATA_MEL_FMIN,
+                DATA_MEL_FMAX,
+            )
 
-            with torch.cuda.amp.autocast(enabled=True):  # ✅ Ensure FP16 evaluation
-                y_hat, ids_slice, _, _ = generator(
-                    c, spec, filenames
-                )  # ✅ Fixed placeholder "_"
-                y = slice_segments(
-                    y, ids_slice * DATA_HOP_LENGTH, TRAIN_SEGMENT_SIZE
-                )  # ✅ Use proper slicing
+            with torch.cuda.amp.autocast(enabled=True):
+                y_hat, ids_slice, _, _ = generator.infer(c, spec, mel, filenames)
+                y = slice_segments(y, ids_slice * DATA_HOP_LENGTH, TRAIN_SEGMENT_SIZE)
 
                 loss = torch.nn.functional.l1_loss(y, y_hat)
                 total_loss += loss.item()

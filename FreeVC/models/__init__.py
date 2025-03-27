@@ -1,4 +1,3 @@
-from .deep_speaker import extract_speaker_embedding
 from .discriminator import MultiPeriodDiscriminator
 from .encoder import Encoder
 from .generator import Generator
