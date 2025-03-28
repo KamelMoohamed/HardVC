@@ -177,7 +177,7 @@ def run(rank, n_gpus):
     scaler = GradScaler(enabled=TRAIN_FP16_RUN)
 
     for epoch in range(1, TRAIN_EPOCHS + 1):
-        train(
+        gen_loss = train(
             rank,
             net_g,
             net_d,
@@ -188,12 +188,16 @@ def run(rank, n_gpus):
             eval_dataset,
             epoch,
         )
-        if rank == 0 and epoch % TRAIN_EVAL_INTERVAL == 0:
-            eval_loss = evaluate(net_g, eval_loader)
-            wandb.log({"epoch": epoch, "eval_loss": eval_loss})
-            if eval_loss < best_loss:
-                save_checkpoint(epoch, net_g, optim_g, eval_loss)
-                best_loss = eval_loss
+        if gen_loss < best_loss:
+            best_loss = gen_loss
+            save_checkpoint(epoch, net_g, optim_g, gen_loss)
+
+        # if rank == 0 and epoch % TRAIN_EVAL_INTERVAL == 0:
+        #     eval_loss = evaluate(net_g, eval_loader)
+        #     wandb.log({"epoch": epoch, "eval_loss": eval_loss})
+        #     if eval_loss < best_loss:
+        #         save_checkpoint(epoch, net_g, optim_g, eval_loss)
+        #         best_loss = eval_loss
         scheduler_g.step()
         scheduler_d.step()
 
@@ -295,6 +299,7 @@ def train(
                 "step": global_step,
             }
         )
+        return loss_gen_all.item()
 
 
 def evaluate(generator, eval_loader):
@@ -318,17 +323,7 @@ def evaluate(generator, eval_loader):
             )
 
             with torch.cuda.amp.autocast(enabled=True):
-                y_hat, ids_slice, _, _ = generator.infer(c, spec, mel, filenames)
-                y = slice_segments(y, ids_slice * DATA_HOP_LENGTH, TRAIN_SEGMENT_SIZE)
-
-                loss = torch.nn.functional.l1_loss(y, y_hat)
-                total_loss += loss.item()
-
-    avg_loss = total_loss / len(eval_loader)
-    wandb.log({"eval_loss": avg_loss})  # ✅ Log evaluation loss
-    logging.info(f"Evaluation completed. Avg Loss: {avg_loss:.6f}")
-
-    return avg_loss
+                y_hat = generator.infer(c, mel, filenames)
 
 
 def save_checkpoint(epoch, model, optimizer, loss):

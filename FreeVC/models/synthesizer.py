@@ -102,8 +102,12 @@ class SynthesizerTrn(nn.Module):
         for filename in filenames:
             mfcc_np = sample_from_mfcc(read_mfcc(filename, SAMPLE_RATE), NUM_FRAMES)
             mfcc = (
-                torch.from_numpy(mfcc_np).permute(2, 1, 0).unsqueeze(0).to(device)
-            )  # [1, 1, D, T]
+                torch.from_numpy(mfcc_np)
+                .permute(2, 1, 0)
+                .unsqueeze(0)
+                .to(device)
+                .float()
+            )
             embedding = self.deep_speaker_model(mfcc)  # [1, gin_channels]
             deep_embeddings.append(embedding)
 
@@ -131,12 +135,19 @@ class SynthesizerTrn(nn.Module):
         deep_embeddings = []
         for filename in filenames:
             mfcc_np = sample_from_mfcc(read_mfcc(filename, SAMPLE_RATE), NUM_FRAMES)
-            mfcc = torch.from_numpy(mfcc_np).to(device)
-            embedding = self.deep_speaker_model(mfcc.unsqueeze(0))  # [1, gin_channels]
+            mfcc = (
+                torch.from_numpy(mfcc_np)
+                .permute(2, 1, 0)
+                .unsqueeze(0)
+                .to(device)
+                .float()
+            )
+            embedding = self.deep_speaker_model(mfcc)  # [1, gin_channels]
             deep_embeddings.append(embedding)
 
         g_deep = torch.cat(deep_embeddings, dim=0)  # [B, gin_channels]
 
+        mel = mel.unsqueeze(0)
         mel_input = mel.transpose(1, 2)  # [B, T, mel_dim]
         g_speaker = self.speaker_encoder(mel_input)  # [B, gin_channels]
 
